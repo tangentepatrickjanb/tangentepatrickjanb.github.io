@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("../images/960x0.jpg");
+
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color:  #0000ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+footer {
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
+.centered1 {
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+.centered2 {
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translate(-25%, -25%);
+}
+.centered3 {
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  position: absolute;
+  top: 115%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+.centered4 {
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  position: absolute;
+  top: 115%;
+  left: 75%;
+  transform: translate(-25%, -25%);
+}
+
+.contact-forms{
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+input[type="text"],input[type="password"], textarea, button{
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+}
